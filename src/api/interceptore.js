@@ -1,5 +1,6 @@
 import axios from "axios";
 
+//这里的VITE_BASE_API和VITE_TIMEOUT是vite自定义的环境变量，下文会提到
 axios.defaults.baseURL = import.meta.env.VITE_BASE_API
 axios.defaults.timeout = import.meta.env.VITE_TIMEOUT
 

@@ -1,10 +1,8 @@
 <script setup>
-import Home from './views/home.vue';
-
 </script>
 
 <template>
-  <Home />
+  这是一个测试
 </template>
 
 <style scoped></style>
