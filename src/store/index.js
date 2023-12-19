@@ -1,7 +1,7 @@
-import useUserStore from './modules/user'
+import useRouteStore from './modules/route'
 
 export default function useStore() {
     return {
-        userStore: useUserStore(),
+        routeStore: useRouteStore(),
     }
 }

@@ -1,5 +1,13 @@
-import axios from './interceptors'
+import request from './interceptor'
 
-export function getUserData(data) {
-    return axios.get('/user/all')
+export function getToken() {
+    return request.get('/user/token')
+}
+
+export function getUserData() {
+    return request.get('/file/findAll')
+}
+
+export function getUserById(params) {
+    return request.get(`/file/${params.id}`)
 }

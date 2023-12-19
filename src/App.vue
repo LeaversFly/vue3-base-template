@@ -2,7 +2,11 @@
 </script>
 
 <template>
-  这是一个测试
+  <router-view></router-view>
 </template>
 
-<style scoped></style>
+<style lang="scss">
+body {
+  width: 100%;
+}
+</style>

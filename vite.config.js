@@ -3,7 +3,6 @@ import vue from '@vitejs/plugin-vue'
 import { resolve } from 'path'
 import AutoImport from 'unplugin-auto-import/vite'
 import Components from 'unplugin-vue-components/vite'
-import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 
 // 下列插件根据需求安装
 // import imagemin from 'unplugin-imagemin/vite';
@@ -22,10 +21,8 @@ export default defineConfig({
     // 自动导入组件和依赖
     AutoImport({
       imports: ['vue'],
-      resolvers: [ElementPlusResolver()]
     }),
     Components({
-      resolvers: [ElementPlusResolver()],
     }),
     // 压缩图片
     // imagemin(),

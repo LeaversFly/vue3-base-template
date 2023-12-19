@@ -1,0 +1,25 @@
+.feature {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 960px;
+    height: 100vh;
+    margin: 0 auto;
+
+    h1 {
+        font-family: "Segoe UI Light";
+        color: #1f1f1f;
+        font-weight: normal;
+        font-size: 70px;
+        line-height: 48pt;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    p,
+    h1 {
+        text-align: center;
+    }
+}
