@@ -9,12 +9,12 @@ const router = createRouter({
 addRoutes(router)
 
 // 路由守卫
-router.beforeEach((to, from, next) => {
-    if (to.path !== '/') {
-        next({ path: '/login' })
-    } else {
-        next()
-    }
-})
+// router.beforeEach((to, from, next) => {
+//     if (to.path !== '/') {
+//         next({ path: '/login' })
+//     } else {
+//         next()
+//     }
+// })
 
 export default router
